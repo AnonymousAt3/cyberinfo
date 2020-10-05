@@ -1,0 +1,5 @@
+wget
+requests
+nmap 
+whois 
+python-whois  
