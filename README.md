@@ -23,8 +23,11 @@ You can check how many devices are connected to your Wi-Fi network.
 # Installation 
 
 (run in root account)
+
 $ cd cyberinfo
-$ pip install -r requirements.txt 
+
+$ pip install -r requirements.txt
+
 $ python cyberinfo.pyo
 
 
