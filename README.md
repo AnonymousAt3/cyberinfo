@@ -38,9 +38,12 @@ $ python cyberinfo.pyo
 
 > ImportError: No module named whois
      $ pip uninstall whois
+     
      $ pip install python-whois
      
+     
 > ImportError: No module named pip
+
      $ sudo apt-get install python-pip 
 --------------------------------
      
