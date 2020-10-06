@@ -23,17 +23,26 @@ A WHOIS lookup is a way for you to search the public database for information ab
 # Find devices connected to your network
 You can check how many devices are connected to your Wi-Fi network.
 
+---------------------------------
 # Installation 
 
 (run in root account)
 
 $ cd cyberinfo
 
-$ pip install -r requirements.txt
+$ pip install -r requirements.txt OR python -m pip  install -r requirements.txt
 
 $ python cyberinfo.pyo
 
+--------------------------------
 
-
-
+> ImportError: No module named whois
+     $ pip uninstall whois
+     $ pip install python-whois
+     
+> ImportError: No module named pip
+     $ sudo apt-get install python-pip 
+--------------------------------
+     
+     
 #This Script Was Made By @cyberghost
