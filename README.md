@@ -37,6 +37,7 @@ $ python cyberinfo.pyo
 --------------------------------
 
 > ImportError: No module named whois
+
      $ pip uninstall whois
      
      $ pip install python-whois
